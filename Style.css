@@ -1,0 +1,125 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url("img/Cake2.jpg");
+    background-size:cover;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header{
+    background-color: rgb(38, 36, 36);
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.header img{
+    width: 70px;
+    height: 35px;
+}
+
+.header .menu-utama{
+    margin-top: 3px;
+    list-style: none;
+}
+
+.header .menu-utama li{
+    float: left;
+    padding: 10px 20px; 
+    border: 1px solid white;
+}
+
+.header .menu-utama li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header form{
+    margin-left: 50px;
+    float: right;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+.header form input{
+    border: none;
+    height: 20px;
+    margin-right: 50px;
+}
+
+.daftar-content{
+    width: 670px;
+    float: left;
+}
+
+.daftar-content #content{
+    background-color: aliceblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.daftar-content #content img{
+    float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.daftar-content #content b{
+    color: black;
+    padding: 3px;
+    font-size: 10px
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.daftar-content #content p{
+    margin: 10px 0;
+    margin-right: 50px;
+}
+
+.daftar-content #content a{
+    text-align: right;
+    color: grey;
+    display: block;
+}
+
+.sidebar{
+    width: 470px;
+    float: right;
+}
+
+.sidebar h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.sidebar p{
+    line-height: 20px;
+    color: black;
+}
+
+.sidebar ul li{
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: lightblue;
+}
